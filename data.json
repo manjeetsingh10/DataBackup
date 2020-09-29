@@ -1,0 +1,24 @@
+{
+    "userName": "root",
+    "password": "Mydb@123",
+    "hostName":"localhost", 
+    "port": "3306",
+    "dumpDir": "D:/dump",
+    "databases": [
+        {
+            "database" : "world"
+        },
+        {
+            "database" : "test"
+        }
+    ],
+
+    "folders": [
+        {
+            "folder":"D:/data mining"
+        },
+        {
+            "folder":"D:/certificates"
+        }
+    ]
+}
