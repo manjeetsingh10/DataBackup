@@ -19,7 +19,7 @@ import (
 		"hostName": "localhost",
 		"port": "3306",
 		"dumpDir": "D:/vicaraBackup",
-		"zipFileName":"D:/vicaraBackup.zip,
+		"zipFileName":"D:/vicaraBackup.zip",
 		"databases": [
 			{
 				"database" : "DB1"
@@ -101,7 +101,7 @@ func dumpDatabase(data *Data) (string, error) {
 			return "Error dumping", err
 		}
 
-		fmt.Printf("File is saved to %s \n", resultFilename)
+		fmt.Printf("Database is saved to %s \n", resultFilename)
 
 		dumper.Close()
 	}
