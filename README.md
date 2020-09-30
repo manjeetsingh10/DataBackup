@@ -14,7 +14,7 @@ To Back up list of given Databases using MySQL dump, and to back up folders to t
 
 ``` python 
 {
-		"username": "root",
+		"userName": "root",
 		"password": "Mydb@123",
 		"hostName": "localhost",
 		"port": "3306",
@@ -50,3 +50,5 @@ Where,
 * **zipFileName**: Name of the Backup file after compressing it to .zip format.
 * **databases**: List of Databases to backup.
 * **folders**: List of Folders to backup. 
+
+
