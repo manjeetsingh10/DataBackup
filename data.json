@@ -4,6 +4,7 @@
     "hostName":"localhost", 
     "port": "3306",
     "dumpDir": "D:/dump",
+    "zipFileName":"D:/vicaraBackup.zip",
     "databases": [
         {
             "database" : "world"

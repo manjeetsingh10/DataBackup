@@ -1,4 +1,8 @@
-package compress
+/*
+	UTILITY PACKAGE TO ZIP THE GIVEN FOLDER TO THE GIVEN FILE NAME(with location).
+*/
+
+package Util
 
 import (
 	"archive/zip"
@@ -77,16 +81,3 @@ func Zipit(source, target string) error {
 
 	return err
 }
-
-// func main() {
-// 	sourceFile := "D:/dump"
-// 	target := "D:/target.zip"
-// 	err := zipit(sourceFile, target)
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-
-// 	// var buf bytes.Buffer
-// 	// _ := compress(sourceFile, &buf)
-
-// }
