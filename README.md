@@ -1,5 +1,13 @@
 # DataBackup
-A Golang Command Line Application which creates a back up of the given folders and Sql databases .
+A Golang Command Line Application which creates a back up of the given folders and Sql databases.
+
+## TABLE OF CONTENTS
+- [PROBLEM STATEMENT](#problem-statement)
+- [DOCUMENTATION](#documentation)
+ *  [PROJECT STRUCTURE](#project-structure)
+ *  [TECH STACK USED](#tech-stack-used)
+ *  [JSON FILE FORMAT](#json-file-format)
+ *  [RUN PROGRAM](#run-program)
 
 ## PROBLEM STATEMENT
 
@@ -62,5 +70,9 @@ Where,
 * **zipFileName**: Name of the Backup file after compressing it to .zip format.
 * **databases**: List of Databases to backup.
 * **folders**: List of Folders to backup. 
+
+### RUN PROGRAM
+Run the program with the following command
+**go run ./DataBackup.go**
 
 
