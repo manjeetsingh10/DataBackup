@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	compress "vicara/Util"
 
 	"github.com/JamesStewy/go-mysqldump"
 	_ "github.com/go-sql-driver/mysql"
@@ -280,5 +281,15 @@ func main() {
 		fmt.Println(er)
 	}
 	fmt.Printf("Folders status: %s\n", copyStatus)
+
+	targetFile := "D:/dump.zip"
+	sourceFile := data.DumpDir
+	zipError := compress.Zipit(sourceFile, targetFile)
+
+	if err != nil {
+		fmt.Println(zipError)
+	} else {
+		fmt.Printf("Database and Folders zipped at %s", targetFile)
+	}
 
 }
