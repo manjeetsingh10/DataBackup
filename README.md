@@ -67,7 +67,7 @@ Where,
 * **hostName**: localhost or ip address of the connection.
 * **port**: Port at which MySQL server is running at.
 * **dumpDir**: Destination Directory/Folder to which the Databases and Folders needs to be transfered at.
-* **zipFileName**: Name of the Backup file after compressing it to .zip format.
+* **zipFileName**: Name of the Backup file after compressing it to .zip format (Note: Do mention ".zip" extension to the name).
 * **databases**: List of Databases to backup.
 * **folders**: List of Folders to backup. 
 
