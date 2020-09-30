@@ -1,5 +1,5 @@
 # DataBackup
-A golang project which creates a back up of the given  folders and Sql databases .
+A Golang Command Line Application which creates a back up of the given folders and Sql databases .
 
 ## PROBLEM STATEMENT
 
@@ -7,6 +7,18 @@ To Back up list of given Databases using MySQL dump, and to back up folders to t
 
 ## DOCUMENTATION
 
+### PROJECT STRUCTURE
+
+``` bash
+├── DataBackup
+│   ├── Util 
+│   │	├── CopyFolder.go
+│   │	└── ZipFolder.go
+│   ├── DataBackUp.go
+│   ├── README.md
+│   └── data.jsone
+└── .gitignore
+```
 ### TECH STACK USED 
 * GoLang
 
@@ -19,7 +31,7 @@ To Back up list of given Databases using MySQL dump, and to back up folders to t
 		"hostName": "localhost",
 		"port": "3306",
 		"dumpDir": "D:/vicaraBackup",
-		"zipFileName":"D:/vicaraBackup.zip,
+		"zipFileName":"D:/vicaraBackup.zip",
 		"databases": [
 			{
 				"database" : "DB1"
