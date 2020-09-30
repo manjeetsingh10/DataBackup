@@ -41,3 +41,12 @@ To Back up list of given Databases using MySQL dump, and to back up folders to t
 
 ```
 
+Where,
+* **userName**: UserName for MySQL.
+* **password**: Password for MySQL.
+* **hostName**: localhost or ip address of the connection.
+* **port**: Port at which MySQL server is running at.
+* **dumpDir**: Destination Directory/Folder to which the Databases and Folders needs to be transfered at.
+* **zipFileName**: Name of the Backup file after compressing it to .zip format.
+* **databases**: List of Databases to backup.
+* **folders**: List of Folders to backup. 
