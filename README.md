@@ -4,10 +4,10 @@ A Golang Command Line Application which creates a back up of the given folders a
 ## TABLE OF CONTENTS
 - [PROBLEM STATEMENT](#problem-statement)
 - [DOCUMENTATION](#documentation)
- *  [PROJECT STRUCTURE](#project-structure)
- *  [TECH STACK USED](#tech-stack-used)
- *  [JSON FILE FORMAT](#json-file-format)
- *  [RUN PROGRAM](#run-program)
+  *  [PROJECT STRUCTURE](#project-structure)
+  *  [TECH STACK USED](#tech-stack-used)
+  *  [JSON FILE FORMAT](#json-file-format)
+  *  [RUN PROGRAM](#run-program)
 
 ## PROBLEM STATEMENT
 
